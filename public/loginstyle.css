@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  /* color: teal; */
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffe4db;
+}
+
+/*********** HEADER ************/
+header {
+  /* text-align: center; */
+  padding: 10px;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+header a {
+  color: black;
+  font-size: 35px;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  display: inline-block;
+  margin: 35px;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.coffeee {
+  font-size: 60px;
+  color: #843625;
+}
+
+.list a {
+  color: teal;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container-name {
+  display: flex;
+  width: 200px;
+}
+.flex-child {
+  flex: 1;
+}
+
+.flex-container-name-child {
+  flex: 1;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.flex-container-name-child-input {
+  margin-left: 15px;
+  width: 300px;
+  border: none;
+  margin-top: 32px;
+}
+.password-input {
+  margin-left: 30px;
+}
+
+.login {
+  max-width: 800px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 80px;
+  letter-spacing: 0%;
+  padding-left: 50px;
+  font-family: Poppins, sans-serif;
+  margin-left: 100px;
+  font-weight: 300;
+  float: left;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 300;
+}
+.order-picture {
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: #843625;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 300;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  margin-top: -50px;
+}
+
+.login-button {
+  font-family: Poppins, sans-serif;
+  background-color: #b86250;
+  color: white;
+  border-radius: 15px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.new-account {
+  font-size: 30px;
+  margin-top: 20px;
+}

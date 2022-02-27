@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  color: teal;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('./home.png');
+  background-size: cover;
+}
+
+/*********** HEADER ************/
+header {
+  /* text-align: center; */
+  padding: 10px;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+header a {
+  color: black;
+  font-size: 35px;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  display: inline-block;
+  margin: 35px;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.coffeee {
+  font-size: 60px;
+  color: #843625;
+}
+
+.list a {
+  color: teal;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+}
+.order-your-first-spring-coffee {
+  max-width: 800px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 80px;
+  letter-spacing: 0%;
+  /* text-align: left; */
+  font-family: Poppins, sans-serif;
+  margin-left: 100px;
+  /* margin-top: 100px; */
+  padding: 50px;
+  font-weight: 300;
+  float: left;
+}
+
+.start-journey {
+  font-size: 40px;
+  font-weight: 300;
+}
+.order-picture {
+  margin-top: -20px;
+  /* margin-left: -50px; */
+}
+
+.button {
+  background-color: #ffe4db; /* Green */
+  border: none;
+  color: #843625;
+  padding: 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 300;
+  margin: 10px 8px;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+}
+
+.get-started {
+  border-radius: 15px;
+  margin-top: 70px;
+  font-weight: 400;
+}
+
+.log-in-button {
+  border-radius: 15px;
+  margin-top: 70px;
+  font-weight: 400;
+  width: 200px;
+}
+
+.card {
+  background-color: white;
+  flex: 1;
+  margin: 175px;
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}

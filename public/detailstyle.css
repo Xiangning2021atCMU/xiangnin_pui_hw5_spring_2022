@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  /* color: teal; */
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+/*********** HEADER ************/
+header {
+  /* text-align: center; */
+  padding: 10px;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+header a {
+  color: black;
+  font-size: 35px;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  display: inline-block;
+  margin: 35px;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.coffeee {
+  font-size: 60px;
+  color: #b86250;
+}
+
+.list a {
+  color: teal;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container-num {
+  display: flex;
+  width: 400px;
+}
+
+.flex-container-price {
+  display: flex;
+  width: 300px;
+}
+
+.flex-container-flavor {
+  display: flex;
+  width: 340px;
+}
+
+.flex-container-size {
+  display: flex;
+  width: 340px;
+}
+
+.flex-container-detail-price {
+  display: flex;
+  width: 440px;
+}
+
+.flex-child-detail-price {
+  flex: 1;
+  height: 20px;
+}
+
+.button {
+  background-color: #b86250;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 10px 8px;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+}
+
+.add-to-cart {
+  border-radius: 15px;
+  margin-top: 70px;
+  font-weight: 400;
+  margin-right: 40px;
+}
+
+.flex-child {
+  flex: 1;
+  margin-top: 40px;
+}
+
+.flex-child-num {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.flex-child-flavor {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.flex-child-size {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.flex-child:first-child {
+  margin-left: 150px;
+}
+
+.flex-child-price {
+  font-family: Poppins, sans-serif;
+}
+
+.flex-child-price:first-child {
+  margin-right: 265px;
+}
+
+.product-name {
+  color: black;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  margin-top: 15px;
+}
+
+.product-price {
+  font-family: Poppins, sans-serif;
+  margin-top: 15px;
+}
+
+.price {
+  margin-top: 10px;
+}
+
+.checked {
+  color: #e14545;
+}
+
+.coffee-plus-minus {
+  color: #b86250;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.detail-product-img {
+  margin-right: -300px;
+}
+.detail-product-name {
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.detail-product-info {
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  width: 700px;
+}
+
+.detail-num {
+  margin: 20px;
+  font-family: Poppins, sans-serif;
+}
+
+.detail-flavor {
+  border-color: #b86250;
+  font-family: Poppins, sans-serif;
+  height: 40px;
+  text-align: center;
+}
+.detail-size {
+  border-color: #b86250;
+  font-family: Poppins, sans-serif;
+  height: 40px;
+  text-align: center;
+}
+
+.detail-page-buttons {
+  width: 700px;
+}

@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  /* color: teal; */
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffe4db;
+}
+
+/*********** HEADER ************/
+header {
+  /* text-align: center; */
+  padding: 10px;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+header a {
+  color: black;
+  font-size: 35px;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  display: inline-block;
+  margin: 35px;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.coffeee {
+  font-size: 60px;
+  color: #843625;
+}
+
+.list a {
+  color: teal;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+}
+.order-your-first-spring-coffee {
+  max-width: 800px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 80px;
+  letter-spacing: 0%;
+  /* text-align: left; */
+  font-family: Poppins, sans-serif;
+  margin-left: 100px;
+  /* margin-top: 100px; */
+  padding: 50px;
+  font-weight: 300;
+  float: left;
+}
+
+.start-journey {
+  font-size: 40px;
+  font-weight: 300;
+}
+.order-picture {
+  margin-top: -20px;
+  /* margin-left: -50px; */
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: #843625;
+  padding: 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 300;
+  margin: 10px 8px;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+}
+
+.get-started {
+  border-radius: 15px;
+  margin-top: 70px;
+  font-weight: 400;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  height: 300px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.middle {
+  padding-top: 30px;
+}
+
+.flex-child {
+  flex: 1;
+  margin-top: 100px;
+}
+
+.flex-child:first-child {
+  margin-left: 150px;
+}
+
+.flex-child-price {
+  font-family: Poppins, sans-serif;
+}
+.flex-child-price:first-child {
+  margin-right: 265px;
+}
+
+.product-name {
+  color: black;
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+  margin-top: 15px;
+}
+
+.price {
+  margin-top: 10px;
+}
+
+.checked {
+  color: #e14545;
+}
+
+.add-to-cart {
+  color: #843625;
+  cursor: pointer;
+  font-size: larger;
+}

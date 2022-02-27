@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="loginstyle.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>Coffee</title>
+
+    <!-- add icon link -->
+    <link rel="icon" href="OriginalAmericano.png" type="image/x-icon" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="coffeee">Coffeee</a>
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="order.html">Orders</a>
+        <a href="cart.html">Cart</a>
+        <a href="login.html">Log in</a>
+        <a href="signup.html">Sign up</a>
+      </nav>
+    </header>
+    <div class="flex-container">
+      <div class="login flex-child">
+        <div>
+          <div>Log in</div>
+          <div class="flex-container-name">
+            <label for="username" class="name flex-container-name-child"
+              >Username:</label
+            >
+            <input
+              type="text"
+              id="username"
+              name="username"
+              class="name flex-container-name-child flex-container-name-child-input"
+            />
+          </div>
+          <div class="flex-container-name">
+            <label for="password" class="name flex-container-name-child"
+              >Password:</label
+            >
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="name flex-container-name-child flex-container-name-child-input password-input"
+            />
+          </div>
+        </div>
+        <a href="product.html" target="_parent"
+          ><button class="button login-button">Start Ordering</button></a
+        >
+        <div class="new-account">
+          New costumer first time ordering? Create your account now!
+        </div>
+        <a href="login.html" target="_parent"
+          ><button class="button login-button">Create account</button></a
+        >
+      </div>
+
+      <div class="flex-child order-picture">
+        <img
+          src="loginpicture.png"
+          alt="coffee picture"
+          width="500"
+          height="500"
+        />
+      </div>
+    </div>
+  </body>
+</html>

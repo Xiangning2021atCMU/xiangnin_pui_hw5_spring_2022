@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="detailstyle.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>Coffee</title>
+
+    <!-- add icon link -->
+    <link rel="icon" href="OriginalAmericano.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/297d958b11.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="coffeee">Coffeee</a>
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="order.html">Orders</a>
+        <a href="cart.html">Cart</a>
+        <a href="login.html">Log in</a>
+        <a href="signup.html">Sign up</a>
+      </nav>
+    </header>
+
+    <div class="flex-container">
+      <div class="flex-child">
+        <div class="detail-product-name">Caramel Macchiato</div>
+        <div class="detail-product-info">
+          Caramel Macchiato is espresso-based beverage sold in Starbucks. It is
+          made with vanilla syrup, steamed milk, espresso and caramel sauce.
+        </div>
+
+        <div class="flex-container-num product-num">
+          <div class="flex-child-num">Number:</div>
+          <div class="flex-child-num">
+            <i class="fa-solid fa-square-minus coffee-plus-minus"></i>
+            <span class="detail-num">1</span>
+            <i class="fa-solid fa-square-plus coffee-plus-minus"></i>
+          </div>
+        </div>
+
+        <div class="flex-container-flavor product-num">
+          <div class="flex-child-flavor">Flavor:</div>
+          <select
+            class="flex-child-flavor detail-flavor"
+            name="flavor"
+            id="flavor"
+          >
+            <option class="detail-flavor" value="milk">Milk++</option>
+            <option class="detail-flavor" value="coco">Coco++</option>
+            <option class="detail-flavor" value="sweet">Sweet++</option>
+          </select>
+        </div>
+
+        <div class="flex-container-size product-size">
+          <div class="flex-child-size">Size:</div>
+          <select class="flex-child-size detail-size" name="size" id="size">
+            <option class="detail-size" value="small">Small</option>
+            <option class="detail-size" value="medium">Medium</option>
+            <option class="detail-size" value="large">Large</option>
+          </select>
+        </div>
+
+        <div class="flex-container-detail-price product-price">
+          <div class="flex-child-detail-price">Price:</div>
+          <div class="flex-child-detail-price">$5.99</div>
+        </div>
+
+        <div class="detail-page-buttons">
+          <a target="_parent"
+            ><button class="button add-to-cart">Add to cart</button></a
+          >
+
+          <a target="_parent"
+            ><button class="button add-to-cart">Pay now</button></a
+          >
+
+          <a href="product.html" target="_parent"
+            ><button class="button add-to-cart">Back to product</button></a
+          >
+        </div>
+      </div>
+
+      <div class="flex-child detail-product-img">
+        <img
+          src="CaramelMacchiato.png"
+          alt="coffee picture"
+          width="320"
+          height="400"
+        />
+      </div>
+    </div>
+  </body>
+</html>
