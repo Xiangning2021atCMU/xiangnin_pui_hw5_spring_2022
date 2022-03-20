@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="cartstyle.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>Coffee</title>
+
+    <!-- add icon link -->
+    <link rel="icon" href="OriginalAmericano.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/297d958b11.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- add the js file -->
+    <script src="main.js" async></script>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="coffeee">Coffeee</a>
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="order.html">Orders</a>
+        <a href="cart.html">Cart</a>
+        <a href="login.html">Log in</a>
+        <a href="signup.html">Sign up</a>
+      </nav>
+    </header>
+
+    <div class="cart">Cart</div>
+
+    <div class="order-detail flex-container column-info">
+      <div class="flex-container-order-detail cart-product-detail">
+        Item details
+      </div>
+      <div>
+        <span class="quantity-column">Quantity</span>
+        <!-- <span>Remove</span> -->
+      </div>
+    </div>
+
+    <div class="cart-items">
+      <div class="order-detail flex-container cart-row">
+        <div class="flex-container-order-detail">
+          <div class="cart-product-name item-name">Caramel Macchiato,</div>
+          <div class="cart-product-detail item-size">Large,</div>
+          <div class="cart-product-detail item-flavor">Coco,</div>
+          <div class="cart-product-detail item-price">$5.99</div>
+
+          <!-- <div class="cart-product-detail item-quantity">2</div> -->
+        </div>
+        <div class="flex-container-order-detail">
+          <input
+            class="cart-product-detail item-quantity"
+            type="number"
+            value="2"
+          />
+          <button class="button cart-remove-button">remove</button>
+        </div>
+      </div>
+
+      <div class="order-detail flex-container cart-row">
+        <div class="flex-container-order-detail">
+          <div class="cart-product-name item-name">Caramel Macchiato,</div>
+          <div class="cart-product-detail item-size">Large,</div>
+          <div class="cart-product-detail item-flavor">Coco,</div>
+          <div class="cart-product-detail item-price">$5.99</div>
+
+          <!-- <div class="cart-product-detail item-quantity">2</div> -->
+        </div>
+        <div class="flex-container-order-detail">
+          <input
+            class="cart-product-detail item-quantity"
+            type="number"
+            value="2"
+          />
+          <button class="button cart-remove-button">remove</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart-total-price">Total: $10</div>
+
+    <div class="cart-final-buttons-group">
+      <a href="payment.html" target="_parent"
+        ><button class="button cart-button">Pay now</button></a
+      >
+      <a href="product.html" target="_parent"
+        ><button class="button cart-button">Continue Ordering</button></a
+      >
+    </div>
+  </body>
+</html>

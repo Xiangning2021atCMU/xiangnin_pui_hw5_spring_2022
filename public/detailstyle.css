@@ -83,7 +83,9 @@ header a {
   font-family: Poppins, sans-serif;
 }
 
-.add-to-cart {
+.add-to-cart,
+.go-to-cart,
+.back-to-product {
   border-radius: 15px;
   margin-top: 70px;
   font-weight: 400;
