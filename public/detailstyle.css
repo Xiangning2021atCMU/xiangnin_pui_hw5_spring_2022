@@ -168,16 +168,17 @@ header a {
 }
 
 .detail-num {
-  margin: 20px;
   font-family: Poppins, sans-serif;
+  border: 1px solid #b86250;
+  margin: 0 auto;
+  text-align: center;
+  width: 82%;
+  /* border: none; */
+  margin-left: -15%;
+  height: 40px;
 }
 
-.detail-flavor {
-  border-color: #b86250;
-  font-family: Poppins, sans-serif;
-  height: 40px;
-  text-align: center;
-}
+.detail-flavor,
 .detail-size {
   border-color: #b86250;
   font-family: Poppins, sans-serif;
