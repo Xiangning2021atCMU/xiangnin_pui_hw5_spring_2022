@@ -158,6 +158,8 @@ header a {
   text-align: center;
   border: none;
   margin-left: 45%;
+  background-color: white;
+  border-radius: 15px;
 }
 
 .column-info {

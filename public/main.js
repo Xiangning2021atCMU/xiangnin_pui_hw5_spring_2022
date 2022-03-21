@@ -55,7 +55,6 @@ function ready() {
 }
 
 function addToCartClicked(event) {
-  console.log('this functiono is calling')
   var button = event.target
   var detailElement =
     button.parentElement.parentElement.parentElement.parentElement
@@ -106,11 +105,12 @@ function addItemToCart(name, size, flavor, price, quantity) {
 
   </div>
   <div class="flex-container-order-detail">
-    <input
-      class="cart-product-detail item-quantity"
-      type="number"
-      value=${quantity}
-    />
+  <input
+    class="cart-product-detail item-quantity"
+    type="number"
+    value=${quantity}
+    disabled
+  />
     <button class="button cart-remove-button">remove</button>
   </div>`
 
@@ -128,10 +128,7 @@ function quantityChanged(event) {
 
 function removeItem(event) {
   var buttonClicked = event.target
-  console.log('check the target')
-  console.log(buttonClicked)
 
-  console.log(buttonClicked.parentElement.parentElement)
   var itemInfoElement = buttonClicked.parentElement.parentElement
 
   var nameElement = itemInfoElement.getElementsByClassName('item-name')
@@ -160,13 +157,7 @@ function removeItem(event) {
       item.flavor === flavor.slice(0, -1) &&
       item.quantity === quantity
     ) {
-      console.log('find the first one that satisfy the condition')
-      console.log('before')
-      console.log(cartItemsWhenRemove)
       cartItemsWhenRemove.splice(i, 1)
-      console.log('after')
-      console.log(cartItemsWhenRemove)
-
       localStorage.setItem('cart-items', JSON.stringify(cartItemsWhenRemove))
       break
     }
