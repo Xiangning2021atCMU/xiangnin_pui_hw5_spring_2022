@@ -1,13 +1,10 @@
 body {
   margin: 0;
-  /* color: teal; */
   font-family: 'Roboto', sans-serif;
   background-color: #ffe4db;
 }
 
-/*********** HEADER ************/
 header {
-  /* text-align: center; */
   padding: 10px;
   font-family: 'Roboto Slab', serif;
   text-align: center;
@@ -68,7 +65,7 @@ header a {
   max-width: 800px;
   color: rgba(0, 0, 0, 1);
   font-size: 80px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   padding-left: 50px;
   font-family: Poppins, sans-serif;
   margin-left: 100px;

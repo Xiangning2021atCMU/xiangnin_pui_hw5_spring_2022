@@ -1,13 +1,10 @@
 body {
   margin: 0;
-  /* color: teal; */
   font-family: 'Roboto', sans-serif;
   background-color: white;
 }
 
-/*********** HEADER ************/
 header {
-  /* text-align: center; */
   padding: 10px;
   font-family: 'Roboto Slab', serif;
   text-align: center;
@@ -44,7 +41,6 @@ header a {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  /* padding: 5px; */
 }
 
 .add-to-cart {
@@ -72,7 +68,6 @@ header a {
 
 .cart-product-detail {
   color: black;
-  /* font-weight: 600; */
   font-family: Poppins, sans-serif;
   padding-right: 10px;
 }
@@ -81,22 +76,12 @@ header a {
   max-width: 800px;
   color: rgba(0, 0, 0, 1);
   font-size: 80px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   padding-left: 50px;
   font-family: Poppins, sans-serif;
   margin-left: 100px;
   font-weight: 300;
   float: left;
-}
-
-.order-detail {
-  clear: both;
-  margin: auto;
-  width: 80%;
-  height: 20%;
-  border-bottom: 3px solid #bf4921;
-  background-color: #ffe4db;
-  padding: 10px;
 }
 
 .button {
@@ -106,7 +91,6 @@ header a {
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  /* display: inline-block; */
   font-size: 35px;
   font-weight: 300;
   cursor: pointer;
@@ -117,7 +101,6 @@ header a {
 }
 
 .cart-button {
-  /* clear: both; */
   font-family: Poppins, sans-serif;
   background-color: #b86250;
   color: white;
@@ -137,7 +120,6 @@ header a {
   padding: 0;
   padding-left: 10px;
   padding-right: 10px;
-  /* margin-left: 5%; */
 }
 
 .cart-total-price {

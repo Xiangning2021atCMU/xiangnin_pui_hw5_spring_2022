@@ -1,13 +1,10 @@
 body {
   margin: 0;
-  /* color: teal; */
   font-family: 'Roboto', sans-serif;
   background-color: white;
 }
 
-/*********** HEADER ************/
 header {
-  /* text-align: center; */
   padding: 10px;
   font-family: 'Roboto Slab', serif;
   text-align: center;
@@ -144,12 +141,6 @@ header a {
   color: #e14545;
 }
 
-.coffee-plus-minus {
-  color: #b86250;
-  cursor: pointer;
-  font-size: larger;
-}
-
 .detail-product-img {
   margin-right: -300px;
 }
@@ -173,7 +164,6 @@ header a {
   margin: 0 auto;
   text-align: center;
   width: 82%;
-  /* border: none; */
   margin-left: -15%;
   height: 40px;
 }

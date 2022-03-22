@@ -1,13 +1,10 @@
 body {
   margin: 0;
-  /* color: teal; */
   font-family: 'Roboto', sans-serif;
   background-color: #ffe4db;
 }
 
-/*********** HEADER ************/
 header {
-  /* text-align: center; */
   padding: 10px;
   font-family: 'Roboto Slab', serif;
   text-align: center;
@@ -42,10 +39,8 @@ header a {
   color: rgba(0, 0, 0, 1);
   font-size: 80px;
   letter-spacing: 0%;
-  /* text-align: left; */
   font-family: Poppins, sans-serif;
   margin-left: 100px;
-  /* margin-top: 100px; */
   padding: 50px;
   font-weight: 300;
   float: left;
@@ -57,7 +52,6 @@ header a {
 }
 .order-picture {
   margin-top: -20px;
-  /* margin-left: -50px; */
 }
 
 .button {
