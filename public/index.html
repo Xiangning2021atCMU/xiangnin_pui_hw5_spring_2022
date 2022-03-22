@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <!-- styles -->
     <link rel="stylesheet" type="text/css" href="style.css" />
@@ -12,6 +12,7 @@
     />
     <title>Coffee</title>
 
+    <!-- add the js file -->
     <script src="main.js" async></script>
     <!-- add icon link -->
     <link rel="icon" href="OriginalAmericano.png" type="image/x-icon" />
@@ -35,19 +36,25 @@
       <div class="order-your-first-spring-coffee">
         <div>Order your first spring coffee!</div>
         <div class="start-journey">Start your coffee journey now!</div>
-        <a href="product.html" target="_parent"
-          ><button class="button get-started">Get Started</button></a
+        <button
+          class="button get-started"
+          onClick="location.href='product.html'"
         >
+          Get Started
+        </button>
 
-        <a href="login.html" target="_parent"
-          ><button class="button log-in-button">Log in</button></a
+        <button
+          class="button log-in-button"
+          onClick="location.href='login.html'"
         >
+          Log in
+        </button>
       </div>
 
       <div class="order-picture">
         <img
           src="OriginalAmericano.png"
-          alt="coffee original americano picture"
+          alt="coffee original americano"
           width="500"
           height="600"
         />

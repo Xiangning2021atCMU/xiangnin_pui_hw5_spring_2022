@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <!-- styles -->
     <link rel="stylesheet" type="text/css" href="loginstyle.css" />
@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <title>Coffee</title>
+    <!-- add the js file -->
     <script src="main.js" async></script>
 
     <!-- add icon link -->
@@ -56,21 +57,29 @@
             />
           </div>
         </div>
-        <a href="product.html" target="_parent"
-          ><button class="button login-button">Start Ordering</button></a
+
+        <button
+          class="button login-button"
+          onClick="location.href='product.html'"
         >
+          Start Ordering
+        </button>
         <div class="new-account">
           New costumer first time ordering? Create your account now!
         </div>
-        <a href="login.html" target="_parent"
-          ><button class="button login-button">Create account</button></a
+
+        <button
+          class="button login-button"
+          onClick="location.href='login.html'"
         >
+          Create account
+        </button>
       </div>
 
       <div class="flex-child order-picture">
         <img
           src="loginpicture.png"
-          alt="login picture"
+          alt="login coffee"
           width="500"
           height="500"
         />
