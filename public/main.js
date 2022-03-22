@@ -1,9 +1,14 @@
+// if the document is still loading, then addEventListener, otherwise run ready()
 if (document.readyState == 'loading') {
   document.addEventListener('DOMContentLoaded', ready)
 } else {
   ready()
 }
 
+// set up:
+// 1. all the necessary eventListeners,
+// 2. fetch/store data from localstorage
+// 3. update the item number and total price for the items in the cart.
 function ready() {
   var cartItemsInStorage
   // if we have the local storage for cart items, then fetch it.
@@ -16,7 +21,7 @@ function ready() {
 
   updateCartItemNum()
 
-  // means that we are in the cart page, then we fetch the existing data from the local storage.
+  // if we are in the cart page, then we fetch the existing data from the local storage.
   if (document.getElementsByClassName('cart-items')[0] !== undefined) {
     var cartItems = JSON.parse(localStorage.getItem('cart-items'))
     for (var i = 0; i < cartItems.length; i++) {
@@ -32,6 +37,7 @@ function ready() {
     updateCartTotal()
   }
 
+  // set up the remove buttons with click event listeners
   var removeCartItemButtons = document.getElementsByClassName(
     'cart-remove-button'
   )
@@ -41,12 +47,14 @@ function ready() {
     button.addEventListener('click', removeItem)
   }
 
+  // set up quantity input with event listeners
   var quantityInputs = document.getElementsByClassName('item-quantity')
   for (var i = 0; i < quantityInputs.length; i++) {
     var input = quantityInputs[i]
     input.addEventListener('change', quantityChanged)
   }
 
+  // set up add to cart buttons with event listeners
   var addToCartButtons = document.getElementsByClassName('add-to-cart')
   for (var i = 0; i < addToCartButtons.length; i++) {
     var button = addToCartButtons[i]
@@ -54,6 +62,7 @@ function ready() {
   }
 }
 
+// event handler for clicking the add to cart button
 function addToCartClicked(event) {
   var button = event.target
   var detailElement =
@@ -88,7 +97,7 @@ function addToCartClicked(event) {
   updateCartItemNum()
 }
 
-// add the item in the cart page.
+// event handler for adding item to cart items list.
 function addItemToCart(name, size, flavor, price, quantity) {
   var cartItems = document.getElementsByClassName('cart-items')[0]
   var cartRow = document.createElement('div')
@@ -118,6 +127,7 @@ function addItemToCart(name, size, flavor, price, quantity) {
   cartItems.append(cartRow)
 }
 
+//event handler for changing the quntity of an item.
 function quantityChanged(event) {
   var input = event.target
   if (isNaN(input.value) || input.value <= 0) {
@@ -126,6 +136,7 @@ function quantityChanged(event) {
   updateCartTotal()
 }
 
+// event handler for removing an item from the cart
 function removeItem(event) {
   var buttonClicked = event.target
 
@@ -168,6 +179,7 @@ function removeItem(event) {
   updateCartItemNum()
 }
 
+//update the cart item number when add or remove items.
 function updateCartItemNum() {
   var cartItemNum = document.getElementsByClassName('cart-item-number')[0]
   if (localStorage.getItem('cart-items')) {
@@ -178,8 +190,9 @@ function updateCartItemNum() {
   }
 }
 
+// update the total price for the items in the cart
 function updateCartTotal() {
-  var cartItems = document.getElementsByClassName('cart-items')[0] // it's a collection, so we get the first item.
+  var cartItems = document.getElementsByClassName('cart-items')[0]
   var cartRows = cartItems.getElementsByClassName('cart-row')
   var totalValue = 0
   for (var i = 0; i < cartRows.length; i++) {
