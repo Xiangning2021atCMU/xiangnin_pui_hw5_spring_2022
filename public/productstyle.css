@@ -55,16 +55,15 @@ header a {
 }
 
 .button {
-  background-color: white;
+  background-color: #843625;
+  border-radius: 10px;
   border: none;
-  color: #843625;
-  padding: 18px;
+  color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 35px;
   font-weight: 300;
-  margin: 10px 8px;
+  /* margin: 10px 8px; */
   cursor: pointer;
   font-family: Poppins, sans-serif;
 }
@@ -112,6 +111,7 @@ header a {
 
 .price {
   margin-top: 10px;
+  /* width: 30px; */
 }
 
 .checked {
@@ -119,7 +119,11 @@ header a {
 }
 
 .add-go-to-detail {
-  color: #843625;
   cursor: pointer;
   font-size: larger;
+}
+
+.detail-button {
+  margin-left: -50px;
+  font-size: 20px;
 }
