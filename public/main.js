@@ -320,9 +320,6 @@ function updateCartTotal() {
   var totalValue = 0
   for (var i = 0; i < cartRows.length; i++) {
     var cartRow = cartRows[i]
-    var quantityElement = cartRow.getElementsByClassName('item-quantity')[0]
-    var quantity = parseFloat(quantityElement.value)
-
     var priceElement = cartRow.getElementsByClassName('item-price')[0]
     var price = parseFloat(priceElement.innerText.replace('$', ''))
 
@@ -333,6 +330,7 @@ function updateCartTotal() {
     'Total: ' + '$' + totalValue
 }
 
+// update the product prices according to different quantity.
 function updateProductPrice() {
   var detailItem = document.getElementsByClassName('detail-item')[0]
   var detailName = detailItem.getElementsByClassName('detail-product-name')[0]

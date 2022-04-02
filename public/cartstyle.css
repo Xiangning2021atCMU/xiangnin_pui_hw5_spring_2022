@@ -53,7 +53,6 @@ header a {
 
 .flex-child {
   flex: 1;
-  /* margin-right: 10px; */
 }
 
 .flex-child-product-name {
