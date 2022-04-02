@@ -72,14 +72,17 @@ function generateProductDiv(product) {
 
   var productItemContents = `
     <div class="card">
+    <a href = ${product.detailLink}>
       <img
         src=${product.src}
         alt=${product.imgAlt}
         style="width: ${product.width}%"
         class = ${product.imgClass}
       />
+      </a>
     </div>
-    <div class="product-name">${product.name}</div>`
+    <a href = ${product.detailLink} style="text-decoration:none" >
+    <div class="product-name">${product.name}</div></a>`
 
   for (var i = 0; i < product.starNum; i++) {
     productItemContents += `<span class="fa fa-star checked"></span>`

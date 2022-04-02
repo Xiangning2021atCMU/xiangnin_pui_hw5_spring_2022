@@ -35,6 +35,7 @@ header a {
 
 .flex-container {
   display: flex;
+  justify-content: space-evenly;
 }
 .order-your-first-spring-coffee {
   max-width: 800px;
@@ -95,4 +96,8 @@ header a {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flex-child {
+  flex: 1;
 }
