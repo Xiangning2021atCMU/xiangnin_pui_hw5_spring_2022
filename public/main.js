@@ -326,7 +326,7 @@ function updateCartTotal() {
     var priceElement = cartRow.getElementsByClassName('item-price')[0]
     var price = parseFloat(priceElement.innerText.replace('$', ''))
 
-    totalValue += quantity * price
+    totalValue += price
   }
   totalValue = Math.round(totalValue * 100) / 100
   document.getElementsByClassName('cart-total-price')[0].innerText =

@@ -65,7 +65,7 @@ header a {
 .login {
   max-width: 800px;
   color: rgba(0, 0, 0, 1);
-  font-size: 80px;
+  font-size: 60px;
   letter-spacing: 0;
   padding-left: 50px;
   font-family: Poppins, sans-serif;
@@ -75,7 +75,7 @@ header a {
 }
 
 .name {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 300;
 }
 .order-picture {
@@ -100,14 +100,15 @@ header a {
 
 .login-button {
   font-family: Poppins, sans-serif;
-  background-color: #b86250;
+  background-color: #843625;
   color: white;
   border-radius: 15px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
 }
 
 .new-account {
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: 400;
   margin-top: 20px;
 }
