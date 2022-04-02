@@ -23,7 +23,8 @@ header a {
 
 .coffeee {
   font-size: 60px;
-  color: #b86250;
+  color: #843625;
+  margin-right: 10vw;
 }
 
 .list a {
@@ -64,9 +65,12 @@ header a {
   flex: 1;
   height: 20px;
 }
+.detail-price {
+  margin-left: -2vw;
+}
 
 .button {
-  background-color: #b86250;
+  background-color: #843625;
   border: none;
   color: white;
   padding: 12px;
@@ -94,19 +98,12 @@ header a {
   margin-top: 40px;
 }
 
-.flex-child-num {
-  flex: 1;
-  margin-top: 20px;
-}
-
-.flex-child-flavor {
-  flex: 1;
-  margin-top: 20px;
-}
-
+.flex-child-num,
+.flex-child-flavor,
 .flex-child-size {
   flex: 1;
   margin-top: 20px;
+  margin-left: 2vw;
 }
 
 .flex-child:first-child {
@@ -131,6 +128,7 @@ header a {
 .product-price {
   font-family: Poppins, sans-serif;
   margin-top: 15px;
+  margin-left: 2vw;
 }
 
 .price {
@@ -142,13 +140,14 @@ header a {
 }
 
 .detail-product-img {
-  margin-right: -300px;
+  margin-right: -400px;
 }
 .detail-product-name {
   font-weight: 400;
   font-family: Poppins, sans-serif;
   font-size: 40px;
   margin-bottom: 20px;
+  margin-left: 2vw;
 }
 
 .detail-product-info {
@@ -156,6 +155,7 @@ header a {
   font-family: Poppins, sans-serif;
   font-size: 20px;
   width: 700px;
+  margin-left: 2vw;
 }
 
 .detail-num {
@@ -163,8 +163,8 @@ header a {
   border: 1px solid #b86250;
   margin: 0 auto;
   text-align: center;
-  width: 82%;
-  margin-left: -15%;
+  width: 80%;
+  margin-left: -20%;
   height: 40px;
 }
 
@@ -174,8 +174,10 @@ header a {
   font-family: Poppins, sans-serif;
   height: 40px;
   text-align: center;
+  /* margin-left: 2vw; */
 }
 
 .detail-page-buttons {
   width: 700px;
+  margin-left: 2vw;
 }

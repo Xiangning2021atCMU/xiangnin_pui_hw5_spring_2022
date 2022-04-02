@@ -26,6 +26,7 @@ header a {
 .coffeee {
   font-size: 60px;
   color: #843625;
+  margin-right: 10vw;
 }
 
 .list a {
@@ -40,17 +41,18 @@ header a {
 .order-your-first-spring-coffee {
   max-width: 800px;
   color: rgba(0, 0, 0, 1);
-  font-size: 80px;
+  font-size: 50px;
   letter-spacing: 0;
   font-family: Poppins, sans-serif;
-  margin-left: 100px;
+  margin-left: 5%;
+  margin-top: 5%;
   padding: 50px;
   font-weight: 300;
   float: left;
 }
 
 .start-journey {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 300;
 }
 .order-picture {
@@ -76,6 +78,7 @@ header a {
   border-radius: 15px;
   margin-top: 70px;
   font-weight: 400;
+  margin-right: 5vw;
 }
 
 .log-in-button {

@@ -23,7 +23,8 @@ header a {
 
 .coffeee {
   font-size: 60px;
-  color: #b86250;
+  color: #843625;
+  margin-right: 10vw;
 }
 
 .list a {
@@ -52,7 +53,7 @@ header a {
 
 .flex-child {
   flex: 1;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .flex-child-product-name {
@@ -75,7 +76,7 @@ header a {
 .cart {
   max-width: 800px;
   color: rgba(0, 0, 0, 1);
-  font-size: 80px;
+  font-size: 50px;
   letter-spacing: 0;
   padding-left: 50px;
   font-family: Poppins, sans-serif;
@@ -112,19 +113,19 @@ header a {
 
 .cart-button {
   font-family: Poppins, sans-serif;
-  background-color: #b86250;
+  background-color: #843625;
   color: white;
   border-radius: 15px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
 }
 
 .cart-remove-button {
   font-family: Poppins, sans-serif;
-  background-color: #b86250;
+  background-color: #843625;
   color: white;
   border-radius: 15px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   margin: 0;
   padding: 0;
